@@ -18,14 +18,14 @@ namespace Lab2
                 switch (state)
                 {
                     case "begin": //establish carnival setting, intro 3 games
-                        Console.WriteLine("The air around you is thick with sucrose particles, crowd energy and the repeated sound of 'STEP RIGHT UP!'");
-                        Console.WriteLine("'Get your prize!  Guess the number of marbles in this jar!!' comes a voice from your left.");
-                        Console.WriteLine("'Your chance to dunk an already wet and sad carny!!' cries someone to your right.");
-                        Console.WriteLine("'Learn deep truths about yourself and your destiny,' intimates a more salient voice that seems to come from just inside your skull.");
+                       
                         break;
 
                     case "games":  //choose game; get name
-
+                        Console.WriteLine("The air around you is thick with sucrose particles, crowd energy and the repeated sound of 'STEP RIGHT UP!'");
+                        Console.WriteLine("'Win a prize!  Guess the number of marbles in this jar!!' comes a voice from your left.");
+                        Console.WriteLine("'Your chance to dunk an already wet and sad carny!!' cries someone to your right.");
+                        Console.WriteLine("'Learn deep truths about yourself and your destiny,' intimates a more salient voice that seems to come from just inside your skull.");
                         break;
                     case "ferrisWheel":  //exit to ferris wheel
                         gameOn = false;
