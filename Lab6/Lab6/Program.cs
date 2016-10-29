@@ -21,6 +21,7 @@ namespace Lab6
                 //Get user input
                 Console.WriteLine("Please enter a word:  ");
                 string word = Console.ReadLine();
+
                 word = word.ToLower();
 
                 //if word starts with a vowel (+way)
@@ -47,9 +48,10 @@ namespace Lab6
                 }
                 
             }
-            Console.WriteLine("oodbyegay!");
+            Console.WriteLine("Oodbyegay!");
         }
 
+        //Next: Add validation and methods!
         //NOTES:  words with only 'y' as a vowel (e.g., shy, my) throw exception.  fix.
         // Next, (Extend) Keep case.
     }

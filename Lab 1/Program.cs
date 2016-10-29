@@ -12,10 +12,9 @@ namespace Lab_1
         {
             string uContinue = ("y");
             //if (uContinue == "y")
-            while (uContinue == "y")
-            {
 
-               // capture user input
+            do
+            { // capture user input
                 Console.WriteLine("Enter Length:    ");
                 string uLength = Console.ReadLine();
                 double length = Convert.ToDouble(uLength);
@@ -35,8 +34,9 @@ namespace Lab_1
 
                 Console.WriteLine("Continue? (y/n)");
                 uContinue = Console.ReadLine();
-            }
-                       
+
+            } while (uContinue == "y");
+                                   
          }
     }
 }
