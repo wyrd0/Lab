@@ -17,27 +17,29 @@ namespace Lab6
             Console.WriteLine("Please enter a word:  ");
             string word = Console.ReadLine();
             //PL = PL.Append(Console.ReadLine());
-            
+
             //to lowercase
             word = word.ToLower();
             //Console.WriteLine(word);
-            
+
             //starts w/ vowel?
-            string vowel = "aeiou";
+            char[] vowel = {'a','e','i','o','u' };
             if (vowel.Contains(word[0]))
             {
                 string plOut = (word + "way");
                 Console.WriteLine(plOut);
             }
-             else word.IndexOf(word.);
-            else
+            //find index of first vowel
+            else 
               {
-                //find first vowel
-                int wIndex = word.IndexOf("a")
-                }
-                word.IndexOf("a");
-
-
+                int wIndex = word.IndexOfAny(vowel);
+                string ig = word.Substring(wIndex);
+                string pig = ig + word.Substring(0, (wIndex));
+                Console.WriteLine(pig + "ay");
+            }
+            
+        }
+           
 
             //int loc = word.IndexOf()
 
@@ -47,4 +49,4 @@ namespace Lab6
 
         }
     }
-}
+
