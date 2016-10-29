@@ -29,7 +29,7 @@ namespace Lab6
                 string plOut = (word + "way");
                 Console.WriteLine(plOut);
             }
-             else word.IndexOf(char"a" || char "e" || char"i" || "o" | "u");
+             else word.IndexOf(word.);
             else
               {
                 //find first vowel
